@@ -32,7 +32,7 @@
     async: true,
     host: 'wufoo.com',
     header: 'show',
-    ssl: window.location.protocol == 'https'
+    ssl: window.location.protocol == 'https:'
   };
 
   (function(d, t) {
